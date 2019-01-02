@@ -1,0 +1,61 @@
+<html>
+<head>
+<script type="text/javascript" src="src/helper.js"></script>
+<script type="text/javascript" src="src/objects.js"></script>
+<script type="text/javascript" src="src/raycaster.js"></script>
+<script type="text/javascript" src="src/minimap.js"></script>
+<script type="text/javascript" src="src/draw.js"></script>
+<script type="text/javascript" src="src/init.js"></script>
+</head>
+<body onload="javascript: init();">
+
+<h1>FPS game</h1>
+
+<p>Goal: shoot enemies, find the 3 keys and head for the exit.</p>
+<p>Keyboard bindings:</p>
+<ul>
+  <li>W S A D - movement</li>
+  <li>F - shoot enemy</li>
+</ul>
+
+<canvas id="minimap" width="320" height="240" style="display: none;"></canvas>
+<canvas id="view" width="640" height="480"></canvas>
+<audio id="player-attack" src="sound/player_attack.ogg" />
+<audio id="enemy-attack" src="sound/enemy_attack.ogg" />
+<textarea id="debug" rows="30" cols="100"></textarea>
+
+<img id="ghost" src="images/horror/ghost.png" style="display: none;" />
+<img id="portal" src="images/horror/portal.gif" style="display: none;" />
+<img id="clouds" src="images/horror/clouds.jpg" style="display: none;" />
+<img id="health" src="images/horror/health.jpg" style="display: none;" />
+<img id="health_item" src="images/horror/health_item.png" style="display: none;" />
+<img id="key_red" src="images/horror/key_red.png" style="display: none;" />
+<img id="key_green" src="images/horror/key_green.png" style="display: none;" />
+<img id="key_blue" src="images/horror/key_blue.png" style="display: none;" />
+<img id="door_red" src="images/horror/door_red.png" style="display: none;" />
+<img id="door_green" src="images/horror/door_green.png" style="display: none;" />
+<img id="door_blue" src="images/horror/door_blue.png" style="display: none;" />
+<img id="tree"  src="images/horror/tree.png" style="display: none;" />
+<img id="tree2"  src="images/tree_enemy.png" style="display: none;" />
+
+<img id="gravestone" src="images/horror/gravestone.png" style="display: none;" />
+<img id="gravestone2" src="images/gravestone.png" style="display: none;" />
+<img id="gravestone3" src="images/gravestone.png" style="display: none;" />
+<img id="gravestone4" src="images/horror/gravestone.png" style="display: none;" />
+<img id="gravestone5" src="images/gravestone.png" style="display: none;" />
+<img id="gravestone6" src="images/gravestone.png" style="display: none;" />
+<img id="gravestone7" src="images/horror/gravestone.png" style="display: none;" />
+<img id="gravestone8" src="images/horror/gravestone.png" style="display: none;" /> 
+<img id="gravestone9" src="images/gravestone.png" style="display: none;" />
+
+<img id="tree2" src="images/gravestone2.png" style="display: none;" />
+<img id="kuerbis" src="images/kuerbis.png" style="display: none;height:500px; width:500px;" />
+<img id="bat" src="images/bat.png" style="display: none;" />
+<img id="ghost_npc" src="images/horror/ghost_npc.png" style="display: none;" />
+<img id="wall" src="images/wall.jpg" style="display: none;" />
+<img id="wall2" src="images/wall2.jpg" style="display: none;" />
+<img id="arrow" src="images/arrow2.png" style="display: none;" />
+
+</body>
+</html>
+
